@@ -45,9 +45,10 @@ docker run -it -v "%cd%":/e2e -w /e2e cypress/included:9.4.1 --browser chrome
 2. Using scripts defined in package.json
 3. Running from the Test Runner, run the command:
 ```bash
-npx cypress open and click on the required feature files
+npx cypress open
 ```
-4. Run scripts using tags
+4. click on the required feature files
+5. Run scripts using tags
 ```bash
 npx cypress-tags run -e TAGS='@smokeTest'
 ```
