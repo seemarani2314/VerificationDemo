@@ -34,7 +34,7 @@ docker build -t my-cypress-image:1.1.0 .
 4. Run command to execute tests 
 
 ```bash
-docker run -i -v "%cd%":/my-cypress-project -t my-cypress-image:1.0.0 --browser chrome
+docker run -i -v "%cd%":/my-cypress-project -t my-cypress-image:1.1.0 --browser chrome
 ```
 
 ## How to run
