@@ -1,0 +1,31 @@
+{
+  "name": "veriffdemointegration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "cypress:open": "cypress open",
+    "cypress:recordDashBoardTest": "npm run test -- --record --key e155814d-9b6c-4b81-8f1c-3461d1a4ab89 --reporter mochawesome",
+    "cypress:runSpecFile": "npm run test --headed --browser chrome --spec cypress\\integration\\features\\API\\uitest.feature"
+  },
+  "author": "Seema Rani",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.5.1",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-mochawesome-reporter": "^3.0.0",
+    "mocha": "^5.2.0",
+    "mochawesome": "^4.1.0",
+    "multiple-cucumber-html-reporter": "^1.19.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "fileprefix": "",
+      "fileSuffix": ".cucumber"
+    },
+    "nonGlobalStepDefinitions": true
+  }
+}

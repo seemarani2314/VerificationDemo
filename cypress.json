@@ -1,0 +1,17 @@
+{
+  "env": {
+    "url": "https://demo.saas-3.veriff.me"
+  },
+  "projectId": "ooxvc1",
+  "defaultCommandTimeout": 8000,
+  "chromeWebSecurity": false,
+  "reporter": "mochawesome",
+  "screenshotOnRunFailure": true,
+  "reporterOptions": {
+    "reportDir": "mochawesome-report",
+    "charts": true,
+    "reportPageTitle": "custom-title",
+    "embeddedScreenshots": true
+  },
+  "testFiles": "**/*.feature"
+}

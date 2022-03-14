@@ -1,0 +1,2431 @@
+[
+  {
+    "description": "    To Perform end to end Verification Flow",
+    "keyword": "Feature",
+    "name": "End to End Verification Flow",
+    "line": 2,
+    "id": "end-to-end-verification-flow",
+    "tags": [
+      {
+        "name": "@smokeTest",
+        "line": 1
+      }
+    ],
+    "uri": "uitest.feature",
+    "elements": [
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 5522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 2759000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"India\"",
+            "result": {
+              "status": "passed",
+              "duration": 3936000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 374000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 12656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 62000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 433000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 6747000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5496000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1004000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1228000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 532000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 383000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 5371000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 83000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 566000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 1155000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3470000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1418000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1804000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 620000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 672000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 597000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 6174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 161000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 669000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 2536000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3953000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1803000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Driver's license\"",
+            "result": {
+              "status": "passed",
+              "duration": 865000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 572000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 7982000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 245000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 1280000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Driver's license\"",
+            "result": {
+              "status": "passed",
+              "duration": 1043000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5930000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 4423000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1109000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1608000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Residence Permit\"",
+            "result": {
+              "status": "passed",
+              "duration": 864000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 600000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 754000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 8457000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 146000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Residence Permit\"",
+            "result": {
+              "status": "passed",
+              "duration": 2647000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 6580000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 28,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 4041000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Finland\"",
+            "result": {
+              "status": "passed",
+              "duration": 1222000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 440000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 467000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 8652000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 684000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 4257000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5581000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 29,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 5462000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Finland\"",
+            "result": {
+              "status": "passed",
+              "duration": 1300000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 334000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 308000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 420000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 6522000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 137000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 1069000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 6102000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 6644000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-with-the-selected-country-and-document-type-for-a-user.",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Validate the verification flow with the selected country and document type for a user.",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@smokeTest",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 8521000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "Enter value in Document Country as \"Bhutan\"",
+            "result": {
+              "status": "passed",
+              "duration": 988000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "Enter value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 324000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 302000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 14,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 4483000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 15,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 822000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Verify the link text displayed on the User New Session Page for \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 6337000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 18,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 7368000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 10000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-country-and-document-type-is-missing-while-creating-session",
+        "keyword": "Scenario",
+        "line": 46,
+        "name": "Validate the verification flow in case Document Country and Document Type is missing while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@sanity",
+            "line": 32
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3179000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 739000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 37,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 38,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 6617000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 39,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 692000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 7045000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "New Session should be created for capturing photographs.",
+            "result": {
+              "status": "passed",
+              "duration": 5585000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-type-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 65,
+        "name": "Validate the verification flow in case Document Type is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 4716000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter value in Document Country as \"India\"",
+            "result": {
+              "status": "passed",
+              "duration": 832000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 326000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 296000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 4124000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 75000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 466000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify that user is on Document Select ID type page",
+            "result": {
+              "status": "passed",
+              "duration": 998000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Select value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5767000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-type-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 66,
+        "name": "Validate the verification flow in case Document Type is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2947000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1554000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter value in Document Country as \"Finland\"",
+            "result": {
+              "status": "passed",
+              "duration": 1174000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 242000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 5329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 63000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 476000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify that user is on Document Select ID type page",
+            "result": {
+              "status": "passed",
+              "duration": 1505000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Select value in Document Type as \"ID card\"",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5952000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-type-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 67,
+        "name": "Validate the verification flow in case Document Type is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 808000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1013000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 357000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 477000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 3772000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 987000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify that user is on Document Select ID type page",
+            "result": {
+              "status": "passed",
+              "duration": 488000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Select value in Document Type as \"Driver's license\"",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-type-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "Validate the verification flow in case Document Type is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 48
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 50,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 2878000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 51,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 797000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 52,
+            "name": "Enter value in Document Country as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1040000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 279000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 54,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 344000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 55,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 3533000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 56,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 57,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 1452000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "Verify that user is on Document Select ID type page",
+            "result": {
+              "status": "passed",
+              "duration": 1729000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 59,
+            "name": "Select value in Document Type as \"Residence permit\"",
+            "result": {
+              "status": "passed",
+              "duration": 117000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 60,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 6331000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 61,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 14000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-country-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 89,
+        "name": "Validate the verification flow in case Document Country is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 70
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 3752000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1901000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "Enter value in Document Type as \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 758000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 373000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 6841000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 54000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 1080000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Verify that user is on Country Selection page",
+            "result": {
+              "status": "passed",
+              "duration": 1227000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Select value in Country Dropdown as \"India\"",
+            "result": {
+              "status": "passed",
+              "duration": 768000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5415000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "Verify the link text displayed on the User New Session Page for \"Passport\"",
+            "result": {
+              "status": "passed",
+              "duration": 148000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-country-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 90,
+        "name": "Validate the verification flow in case Document Country is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 70
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 5268000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1731000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "Enter value in Document Type as \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 537000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 417000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 543000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 5742000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 1127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Verify that user is on Country Selection page",
+            "result": {
+              "status": "passed",
+              "duration": 2258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Select value in Country Dropdown as \"Finland\"",
+            "result": {
+              "status": "passed",
+              "duration": 966000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "Verify the link text displayed on the User New Session Page for \"ID Card\"",
+            "result": {
+              "status": "passed",
+              "duration": 276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5679000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-country-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 91,
+        "name": "Validate the verification flow in case Document Country is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 70
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 5494000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 1393000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "Enter value in Document Type as \"Driver's license\"",
+            "result": {
+              "status": "passed",
+              "duration": 722000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 657000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 442000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 5971000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 193000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 2720000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Verify that user is on Country Selection page",
+            "result": {
+              "status": "passed",
+              "duration": 882000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Select value in Country Dropdown as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 1289000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5347000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "Verify the link text displayed on the User New Session Page for \"Driver's license\"",
+            "result": {
+              "status": "passed",
+              "duration": 551000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5705000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "end-to-end-verification-flow;validate-the-verification-flow-in-case-document-country-is-not-provided-while-creating-session",
+        "keyword": "Scenario",
+        "line": 92,
+        "name": "Validate the verification flow in case Document Country is not provided while creating session",
+        "tags": [
+          {
+            "name": "@smokeTest",
+            "line": 1
+          },
+          {
+            "name": "@regression",
+            "line": 70
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 72,
+            "name": "I am on Home Page",
+            "result": {
+              "status": "passed",
+              "duration": 5153000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 73,
+            "name": "Enter value in Session Language as \"English\"",
+            "result": {
+              "status": "passed",
+              "duration": 957000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 74,
+            "name": "Enter value in Document Type as \"Residence Permit\"",
+            "result": {
+              "status": "passed",
+              "duration": 503000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 75,
+            "name": "Select value in Verification Type as \"Redirect\"",
+            "result": {
+              "status": "passed",
+              "duration": 351000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 76,
+            "name": "Click on VeriffMe button",
+            "result": {
+              "status": "passed",
+              "duration": 348000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 77,
+            "name": "Click on Continue with your current device button",
+            "result": {
+              "status": "passed",
+              "duration": 15421000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 78,
+            "name": "Verify the link text displayed on the Start Session Page",
+            "result": {
+              "status": "passed",
+              "duration": 70000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 79,
+            "name": "Click on Start Session button",
+            "result": {
+              "status": "passed",
+              "duration": 830000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 80,
+            "name": "Verify that user is on Country Selection page",
+            "result": {
+              "status": "passed",
+              "duration": 1039000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 81,
+            "name": "Select value in Country Dropdown as \"Estonia\"",
+            "result": {
+              "status": "passed",
+              "duration": 948000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 82,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 6593000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 83,
+            "name": "Verify the link text displayed on the User New Session Page for \"Residence Permit\"",
+            "result": {
+              "status": "passed",
+              "duration": 350000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 84,
+            "name": "Click on Continue button",
+            "result": {
+              "status": "passed",
+              "duration": 5801000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 85,
+            "name": "User is ready to take photo",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

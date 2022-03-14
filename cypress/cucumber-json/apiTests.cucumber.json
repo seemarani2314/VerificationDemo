@@ -1,0 +1,195 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Test verification flow using API",
+    "line": 1,
+    "id": "test-verification-flow-using-api",
+    "tags": [],
+    "uri": "apiTests.feature",
+    "elements": [
+      {
+        "id": "test-verification-flow-using-api;verify-environment-details",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Verify environment details",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 3
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "As a user want to access production environment",
+            "result": {
+              "status": "passed",
+              "duration": 8256000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify response status code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify response details",
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-verification-flow-using-api;create-api-test-to-verify-valid-details-to-create-new-session",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Create API Test to verify valid details to create new session",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 9
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 11,
+            "name": "As a user I want to enter valid details on the home page POST api",
+            "result": {
+              "status": "passed",
+              "duration": 939000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify response status code is 200",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-verification-flow-using-api;create-api-test-to-check-invalid-details-of-document-country",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Create API test to check invalid details of document country",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 14
+          },
+          {
+            "name": "@negative",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "As a user I want to enter invalid document country details on the home page POST api",
+            "result": {
+              "status": "passed",
+              "duration": 640000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "Verify response status code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-verification-flow-using-api;create-api-test-to-check-invalid-details-of-document-type",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Create API test to check invalid details of document type",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 19
+          },
+          {
+            "name": "@negative",
+            "line": 19
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 21,
+            "name": "As a user I want to enter invalid document type details on the home page POST api",
+            "result": {
+              "status": "passed",
+              "duration": 631000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 22,
+            "name": "Verify response status code is 400",
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "test-verification-flow-using-api;create-api-test-which-is-creating-new-session",
+        "keyword": "Scenario",
+        "line": 25,
+        "name": "Create API Test which is creating new session",
+        "tags": [
+          {
+            "name": "@test",
+            "line": 24
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 26,
+            "name": "As a user I want to create a new session and config the session created.",
+            "result": {
+              "status": "passed",
+              "duration": 5789000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

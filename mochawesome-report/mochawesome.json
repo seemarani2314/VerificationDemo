@@ -1,0 +1,180 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 5,
+    "passes": 5,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-03-14T16:54:57.392Z",
+    "end": "2022-03-14T16:55:13.795Z",
+    "duration": 16403,
+    "testsRegistered": 5,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "3508fcc2-68a7-420a-9355-9c25f8c5a9b4",
+      "title": "",
+      "fullFile": "cypress/integration/features/API/apiTests.feature",
+      "file": "cypress/integration/features/API/apiTests.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "689cf101-0764-4151-b40c-c162554d0220",
+          "title": "Test verification flow using API",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verify environment details",
+              "fullTitle": "Test verification flow using API Verify environment details",
+              "timedOut": null,
+              "duration": 8153,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "5fcc4372-65af-421a-9290-e925419da190",
+              "parentUUID": "689cf101-0764-4151-b40c-c162554d0220",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create API Test to verify valid details to create new session",
+              "fullTitle": "Test verification flow using API Create API Test to verify valid details to create new session",
+              "timedOut": null,
+              "duration": 871,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "3eabc3d0-7577-42c8-98cd-f806752ef751",
+              "parentUUID": "689cf101-0764-4151-b40c-c162554d0220",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create API test to check invalid details of document country",
+              "fullTitle": "Test verification flow using API Create API test to check invalid details of document country",
+              "timedOut": null,
+              "duration": 645,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c091814b-643c-4549-abe4-cdd26d0387e1",
+              "parentUUID": "689cf101-0764-4151-b40c-c162554d0220",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create API test to check invalid details of document type",
+              "fullTitle": "Test verification flow using API Create API test to check invalid details of document type",
+              "timedOut": null,
+              "duration": 634,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "eb0c0dca-41c8-4866-8815-6bb504091234",
+              "parentUUID": "689cf101-0764-4151-b40c-c162554d0220",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Create API Test which is creating new session",
+              "fullTitle": "Test verification flow using API Create API Test which is creating new session",
+              "timedOut": null,
+              "duration": 5781,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "16edcb8a-bea7-41cf-8b7e-0fdb1adbffad",
+              "parentUUID": "689cf101-0764-4151-b40c-c162554d0220",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5fcc4372-65af-421a-9290-e925419da190",
+            "3eabc3d0-7577-42c8-98cd-f806752ef751",
+            "c091814b-643c-4549-abe4-cdd26d0387e1",
+            "eb0c0dca-41c8-4866-8815-6bb504091234",
+            "16edcb8a-bea7-41cf-8b7e-0fdb1adbffad"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16084,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false
+      },
+      "version": "4.1.0"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "mochawesome-report",
+        "charts": true,
+        "reportPageTitle": "custom-title",
+        "embeddedScreenshots": true
+      },
+      "version": "4.1.0"
+    }
+  }
+}
