@@ -57,6 +57,8 @@ npx cypress-tags run -e TAGS='@smokeTest'
 * Mochawesome report will be generated automatically. 
     * rootfolder > mochawesome-report > mochawesome.html > open this document in any browser
 * To generate more interactive cucumber-html report, run the below listed command in visual studio code after execution will be completed.
-    * node uitest-html-report.js
+```bash
+node uitest-html-report.js
+```
 * After executing above mentioned command, follow this path to get the report 
     * rootfolder > reports > index.html > open this document in any browser
