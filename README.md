@@ -8,7 +8,7 @@ Windows
 node
 npm
 
-## Libraries Used
+## Plugins Used
 1. cypress
 2. cypress-cucumber-preprocessor
 3. cypress-mochawesome-reporter
