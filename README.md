@@ -9,10 +9,9 @@ node
 npm
 
 ## Plugins Used
-1. cypress
-2. cypress-cucumber-preprocessor
-3. cypress-mochawesome-reporter
-4. multiple-cucumber-html-reporter
+1. cypress-cucumber-preprocessor
+2. cypress-mochawesome-reporter
+3. multiple-cucumber-html-reporter
 
 ## Techniques used
 1. Page Object Model
